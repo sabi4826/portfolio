@@ -1,11 +1,17 @@
 * {
-	margin: 0;
+	margin: 2px;
 }
 
 img {
-	max-width: 100%;
+	max-width: 99%;
+	margin-top: 5vw;
+	margin-bottom: 5vw;
 }
 
 video {
-	max-width: 100%;
+	max-width: 99%;
+}
+
+section {
+	margin-bottom: 10vw;
 }
