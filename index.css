@@ -1,13 +1,50 @@
 * {
-	margin: 2px;
+	margin: 0px;
+}
+
+main {
+	background-color: #0D4E94;
 }
 
 img {
-	max-width: 99%;
+	max-width: 95%;
+	margin-left: 2.5%;
 	margin-top: 5vw;
 	margin-bottom: 5vw;
 }
 
-h1 {
-	font-family: 'Fredericka the Great', cursive;
+header {
+	height: 7vw;
+	background-color: #14B6E0;
+	margin: 0;
+	/*margin-bottom: 5vw;*/
+	max-width: 100%;
+}
+
+nav {
+	text-align: center;
+	font-size: 200%;
+}
+
+nav a {
+	color: #B327B2;
+}
+
+h1,
+h2,
+h3,
+nav {
+	font-family: 'Special Elite', cursive;
+}
+
+p {
+	font-family: 'Cutive Mono', monospace;
+}
+
+footer {
+	height: 10vw;
+	background-color: #14B6E0;
+	margin: 0;
+	padding-top: 3.5vw;
+	max-width: 100%;
 }

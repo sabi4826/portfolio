@@ -16,4 +16,12 @@ section {
 	margin-bottom: 10vw;
 }
 
-h1 {}
+h1,
+h2,
+h3 {
+	font-family: 'Special Elite', cursive;
+}
+
+p {
+	font-family: 'Cutive Mono', monospace;
+}

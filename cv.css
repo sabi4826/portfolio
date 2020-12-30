@@ -1,0 +1,19 @@
+* {
+	margin: 2px;
+}
+
+img {
+	max-width: 99%;
+	margin-top: 5vw;
+	margin-bottom: 5vw;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Special Elite', cursive;
+}
+
+p {
+	font-family: 'Cutive Mono', monospace;
+}
