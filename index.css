@@ -5,8 +5,7 @@
 img {
 	max-width: 95%;
 	margin-top: 5vw;
-	margin-bottom: 5vw;
-	margin: 0 auto;
+	margin-left: 2.5%;
 }
 
 header {
@@ -19,7 +18,7 @@ header {
 
 nav {
 	text-align: center;
-	font-size: 200%;
+	font-size: 2rem;
 }
 
 nav a {
@@ -35,6 +34,31 @@ nav {
 
 p {
 	font-family: 'Cutive Mono', monospace;
+	font-size: 1rem;
+}
+
+.knap {
+	position: relative;
+	background-color: #E600E5;
+	width: 32vw;
+	height: 15vw;
+	top: -31vw;
+	left: 8vw;
+	padding-top: 12px;
+	box-shadow: #284DE0 6px 7px;
+}
+
+.knap a {
+	color: #284DE0;
+	font-family: 'Special Elite', cursive;
+	font-size: 1.5rem;
+	/*text-align: justify; VIRKER KUN PÅ ØVERSTE LINJE!
+	padding-left: 20px;*/
+}
+
+.knap a:hover {
+	color: #14B6E0;
+	cursor: pointer;
 }
 
 footer {

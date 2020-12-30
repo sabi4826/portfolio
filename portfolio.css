@@ -48,7 +48,8 @@ nav {
 	font-family: 'Special Elite', cursive;
 }
 
-p {
+p,
+figcaption {
 	font-family: 'Cutive Mono', monospace;
 }
 
