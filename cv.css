@@ -6,14 +6,42 @@ img {
 	max-width: 99%;
 	margin-top: 5vw;
 	margin-bottom: 5vw;
+	margin: 0 auto;
+}
+
+header {
+	height: 7vw;
+	background-color: #14B6E0;
+	margin: 0;
+	margin-bottom: 5vw;
+	max-width: 100%;
+}
+
+nav {
+	text-align: center;
+	font-size: 200%;
+}
+
+nav a {
+	color: #E600E5;
 }
 
 h1,
 h2,
-h3 {
+h3,
+nav {
 	font-family: 'Special Elite', cursive;
 }
 
 p {
 	font-family: 'Cutive Mono', monospace;
+}
+
+footer {
+	height: 12vw;
+	background-color: #14B6E0;
+	margin: 0;
+	margin-top: 10vw;
+	padding-top: 3.5vw;
+	max-width: 100%;
 }
