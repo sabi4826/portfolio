@@ -6,23 +6,46 @@ img {
 	max-width: 95%;
 	margin-top: 5vw;
 	margin-left: 2.5%;
+	box-shadow: 7px 7px #14B6E0;
+	display: block;
+	z-index: -1;
 }
 
+/*MOBILMENU*/
+
 header {
-	height: 7vw;
-	background-color: #14B6E0;
-	margin: 0;
-	margin-bottom: 5vw;
-	max-width: 100%;
+	height: 0;
 }
 
 nav {
-	text-align: center;
-	font-size: 2rem;
+	padding-top: 2rem;
+	padding-left: 1rem;
+	font-weight: 400;
+	font-size: 1.6rem;
+	display: flex;
+	flex-direction: column;
+	height: 12vh;
+	z-index: 99;
 }
 
-nav a {
+nav a:link {
+	color: #14B6E0;
+	text-align: left;
+	justify-content: space-around;
+	padding: 0.4rem;
+	z-index: 99;
+}
+
+nav a:visited {
+	color: #14B6E0;
+}
+
+nav a:hover {
 	color: #E600E5;
+}
+
+nav a:active {
+	color: #14B6E0;
 }
 
 section {
@@ -48,6 +71,7 @@ p {
 	background-color: #E600E5;
 	width: 32vw;
 	height: 15vw;
+	text-align: center;
 	top: -31vw;
 	left: 8vw;
 	padding-top: 12px;
@@ -58,8 +82,6 @@ p {
 	color: #284DE0;
 	font-family: 'Special Elite', cursive;
 	font-size: 1.5rem;
-	/*text-align: justify; VIRKER KUN PÅ ØVERSTE LINJE!
-	padding-left: 20px;*/
 }
 
 .knap a:hover {
@@ -69,9 +91,85 @@ p {
 
 footer {
 	height: 10vw;
+	/*height: auto;*/
 	background-color: #14B6E0;
 	margin: 0;
 	margin-top: 10vw;
 	padding-top: 3.5vw;
 	max-width: 100%;
 }
+
+/*MEDIA QUERIES!!!*/
+
+@media only screen and (min-width: 550px) {
+
+	header {
+		height: 7vw;
+		background-color: #0D4E94;
+		margin: 0;
+		width: 100%;
+	}
+
+	/*nav img {
+        width: auto;
+       	 display: inline;
+    }*/
+
+	nav {
+		flex-direction: row;
+		height: 12vh;
+		font-size: 1.6rem;
+		padding-top: 4px;
+		/*position: fixed;*/
+	}
+
+	nav a:link {
+		color: #14B6E0;
+		text-align: center;
+		padding: 0.4rem;
+	}
+
+	.knap {
+		width: 26vw;
+		height: 11vw;
+		padding-top: 8px;
+	}
+
+	.knap a {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (min-width: 750px) {
+
+	header {
+		margin-bottom: 2vw;
+	}
+
+	nav {
+		height: 10vh;
+		font-size: 1.8rem;
+		padding-top: 6px;
+	}
+
+	img {
+		max-width: 85%;
+		margin: 0 auto;
+	}
+
+	.knap {
+		width: 23vw;
+		height: 9vw;
+		top: -31vw;
+		left: 12vw;
+		padding-top: 8px;
+	}
+
+	.knap a {
+		font-size: 1.7rem;
+	}
+}
+
+@media only screen and (min-width: 900px) {}
+
+@media only screen and (min-width: 1200px) {}
