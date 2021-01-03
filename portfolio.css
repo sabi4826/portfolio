@@ -39,6 +39,8 @@ video {
 
 section {
 	margin-bottom: 10vw;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 h1,
@@ -51,6 +53,10 @@ nav {
 p,
 figcaption {
 	font-family: 'Cutive Mono', monospace;
+}
+
+figcaption {
+	font-style: italic;
 }
 
 footer {
