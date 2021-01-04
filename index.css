@@ -104,7 +104,7 @@ footer {
 @media only screen and (min-width: 550px) {
 
 	header {
-		height: 7vw;
+		height: 8vw;
 		background-color: #0D4E94;
 		margin: 0;
 		width: 100%;
@@ -119,7 +119,7 @@ footer {
 		flex-direction: row;
 		height: 12vh;
 		font-size: 1.6rem;
-		padding-top: 4px;
+		padding-top: 6px;
 		/*position: fixed;*/
 	}
 
@@ -146,12 +146,13 @@ footer {
 
 	header {
 		margin-bottom: 3vw;
+		height: 7vw;
 	}
 
 	nav {
 		height: 10vh;
 		font-size: 1.8rem;
-		padding-top: 6px;
+		padding-top: 10px;
 	}
 
 	img {
@@ -186,6 +187,12 @@ footer {
 
 	header {
 		margin-bottom: 4vw;
+		height: 7vw;
+	}
+
+	nav {
+		font-size: 1.9rem;
+		padding-top: 13px;
 	}
 
 	.knap {
@@ -208,7 +215,12 @@ footer {
 @media only screen and (min-width: 1200px) {
 
 	header {
-		margin-bottom: 4vw;
+		height: 6vw;
+	}
+
+	nav {
+		font-size: 2rem;
+		padding-top: 17px;
 	}
 
 	.knap {
