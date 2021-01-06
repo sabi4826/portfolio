@@ -97,7 +97,6 @@ section a:link {
 }
 
 section a:visited {
-
 	color: #0D4E94;
 }
 
@@ -147,15 +146,61 @@ footer {
 	/*RUNDT FOTO*/
 	img {
 		border-radius: 50%;
-		max-width: 60%;
-		margin-left: 20%;
-		box-shadow: 10px -10px #14B6E0;
+		max-width: 70%;
+		box-shadow: 8px -8px #14B6E0;
 	}
 
 	p,
 	h2,
 	section a {
 		margin: 0vw;
+	}
+
+	/*TOPSEKTION*/
+
+	#cv_col_1 .section_wrapper_1 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+	}
+
+	#cv_billede {
+		grid-column: 2/2;
+		grid-row: 1/1;
+	}
+
+	#cv_h1 {
+		grid-column: 1/2;
+		grid-row: 1/1;
+		padding-top: 20%;
+	}
+
+	/*ANDEN SEKTION - MIN BAGGRUND*/
+
+	#cv_baggrund {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: 1fr;
+	}
+
+	.min_baggrund {
+		grid-column: 1/1;
+		grid-row: 1/1;
+		margin-left: 10vw;
+		margin-right: 10vw;
+	}
+
+	/*TREDJE SEKTION - CV & LISTE*/
+
+	#cv_uddrag {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-auto-rows: 1fr;
+		grid-gap: 30px;
+	}
+
+	footer {
+		height: 10vw;
 	}
 }
 
