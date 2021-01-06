@@ -97,9 +97,17 @@ h3 {
 
 p,
 section a,
+ol,
 figcaption {
 	font-family: 'Cutive Mono', monospace;
 	font-size: medium;
+}
+
+p,
+h3,
+section a {
+	text-align: justify;
+	margin: 2vw;
 }
 
 figcaption {
