@@ -97,10 +97,15 @@ h3 {
 
 p,
 section a,
-ol,
-figcaption {
+ol {
 	font-family: 'Cutive Mono', monospace;
 	font-size: medium;
+}
+
+figcaption {
+	font-family: 'Cutive Mono', monospace;
+	font-size: small;
+	font-style: italic;
 }
 
 p,
@@ -110,9 +115,7 @@ section a {
 	margin: 2vw;
 }
 
-figcaption {
-	font-style: italic;
-}
+/*LINKS*/
 
 section a:link {
 	color: #0D4E94;
