@@ -105,7 +105,7 @@ section a:hover {
 }
 
 footer {
-	height: 13vw;
+	height: 14vw;
 	background-color: #14B6E0;
 	margin: 0;
 	margin-top: 10vw;
@@ -169,10 +169,12 @@ footer {
 		grid-row: 1/1;
 	}
 
-	#cv_h1 {
+	.cv_h1 {
 		grid-column: 1/2;
 		grid-row: 1/1;
-		padding-top: 20%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
 	/*ANDEN SEKTION - MIN BAGGRUND*/
@@ -199,6 +201,35 @@ footer {
 		grid-gap: 30px;
 	}
 
+	.uddrag_tekst {
+		margin-left: 2vw;
+		margin-bottom: 5vw;
+	}
+
+	.liste {
+		margin-right: 1vw;
+		margin-bottom: 5vw;
+	}
+
+	/*FJERDE SEKTION - DRØMME*/
+
+	#cv_droemme {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: 1fr;
+	}
+
+	.cv_tekst_2 {
+		margin-left: 10vw;
+		margin-right: 10vw;
+	}
+
+	.cv_tekst_3 {
+		margin-top: 3vw;
+		margin-left: 10vw;
+		margin-right: 10vw;
+	}
+
 	footer {
 		height: 10vw;
 	}
@@ -217,6 +248,46 @@ footer {
 		padding-top: 10px;
 	}
 
+	/*SEKTIONER*/
+	img {
+		max-width: 80%;
+	}
+
+	/*ANDEN SEKTION - MIN BAGGRUND*/
+
+	.min_baggrund {
+		margin-left: 14vw;
+		margin-right: 14vw;
+	}
+
+	/*TREDJE SEKTION*/
+	#cv_uddrag {
+		grid-gap: 40px;
+	}
+
+	.uddrag_tekst {
+		margin-left: 4vw;
+		margin-bottom: 5vw;
+	}
+
+	.liste {
+		margin-right: 3vw;
+		margin-bottom: 5vw;
+	}
+
+	/*FJERDE SEKTION - DRØMME*/
+
+	.cv_tekst_2 {
+		margin-left: 14vw;
+		margin-right: 14vw;
+	}
+
+	.cv_tekst_3 {
+		margin-top: 2vw;
+		margin-left: 14vw;
+		margin-right: 14vw;
+	}
+
 	footer {
 		height: 8vw;
 	}
@@ -225,7 +296,7 @@ footer {
 @media only screen and (min-width: 900px) {
 
 	img {
-		max-width: 75%;
+		max-width: 70%;
 		height: auto;
 	}
 
@@ -238,6 +309,42 @@ footer {
 		font-size: 1.9rem;
 		padding-top: 13px;
 	}
+
+	/*SEKTIONER*/
+	img {
+		max-width: 80%;
+	}
+
+	/*ANDEN SEKTION - MIN BAGGRUND*/
+
+	.min_baggrund {
+		margin-left: 20vw;
+		margin-right: 20vw;
+	}
+
+	/*FJERDE SEKTION - DRØMME*/
+
+	#cv_droemme {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-auto-rows: 1fr;
+		grid-gap: 10vw;
+	}
+
+	.cv_tekst_2 {
+		grid-column: 1/2;
+		grid-row: 1/1;
+		margin-left: 5vw;
+		margin-right: 0;
+	}
+
+	.cv_tekst_3 {
+		grid-column: 2/2;
+		grid-row: 1/1;
+		padding-top: 3.5vw;
+		margin-left: 0;
+		margin-right: 5vw;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -249,6 +356,59 @@ footer {
 	nav {
 		font-size: 2rem;
 		padding-top: 17px;
+	}
+
+	h1 {
+		font-size: xxx-large;
+	}
+
+	/*SEKTIONER*/
+	img {
+		max-width: 77%;
+	}
+
+	/*ANDEN SEKTION - MIN BAGGRUND*/
+
+	.min_baggrund {
+		margin-left: 22vw;
+		margin-right: 22vw;
+		margin-bottom: 3vw;
+	}
+
+	/*TREDJE SEKTION*/
+
+	#cv_uddrag {
+		grid-gap: 10vw;
+	}
+
+	.uddrag_tekst {
+		margin-left: 5vw;
+		margin-bottom: 5vw;
+	}
+
+	.liste {
+		margin-right: 5vw;
+		margin-bottom: 5vw;
+	}
+
+	/*FJERDE SEKTION - DRØMME*/
+
+	#cv_droemme {
+		grid-gap: 7vw;
+	}
+
+	.cv_tekst_2 {
+		grid-column: 1/2;
+		grid-row: 1/1;
+		margin-left: 7vw;
+		margin-right: 0;
+	}
+
+	.cv_tekst_3 {
+		grid-column: 2/2;
+		grid-row: 1/1;
+		padding-top: 0;
+		margin-right: 7vw;
 	}
 
 	footer {
