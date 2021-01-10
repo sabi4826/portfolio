@@ -26,6 +26,10 @@ nav {
 	z-index: 99;
 }
 
+nav img {
+	display: none;
+}
+
 nav a:link {
 	color: #14B6E0;
 	text-align: left;
@@ -124,10 +128,12 @@ footer {
 		width: 100%;
 	}
 
-	/*nav img {
-        width: auto;
-       	 display: inline;
-    }*/
+	nav img {
+		width: auto;
+		margin-top: 0;
+		display: inline-flex;
+		box-shadow: none;
+	}
 
 	nav {
 		flex-direction: row;

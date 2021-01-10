@@ -19,6 +19,10 @@ nav {
 	z-index: 99;
 }
 
+nav img {
+	display: none;
+}
+
 nav a:link {
 	color: #14B6E0;
 	text-align: left;
@@ -87,6 +91,7 @@ nav a {
 h2 {
 	margin-left: 2vw;
 	margin-bottom: 4vw;
+	margin-top: 6vw;
 }
 
 h3 {
@@ -152,10 +157,12 @@ footer {
 		width: 100%;
 	}
 
-	/*nav img {
-        width: auto;
-       	 display: inline;
-    }*/
+	nav img {
+		width: auto;
+		margin-top: 0;
+		display: inline-flex;
+		box-shadow: none;
+	}
 
 	nav {
 		flex-direction: row;
@@ -175,7 +182,7 @@ footer {
 	}
 
 	h2 {
-		margin-top: 5vw;
+		margin-top: 8vw;
 	}
 
 	#port_top h2 {
@@ -495,6 +502,10 @@ footer {
 		margin-left: 13vw;
 		margin-right: 13vw;
 		font-size: xx-large;
+	}
+
+	h2 {
+		margin-bottom: 2vw;
 	}
 
 	h3 {
