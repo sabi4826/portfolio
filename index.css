@@ -204,6 +204,12 @@ footer {
 		padding-top: 13px;
 	}
 
+	/*VIRKER IKKE?
+	nav img {
+		width: 150%;
+		height: auto;
+	}*/
+
 	.knap {
 		width: 20vw;
 		height: 8vw;

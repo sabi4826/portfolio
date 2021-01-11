@@ -11,8 +11,6 @@ header {
 nav {
 	padding-top: 1rem;
 	padding-left: 1rem;
-	font-weight: 400;
-	/*font-size: 1.6rem;*/
 	display: flex;
 	flex-direction: column;
 	height: 12vh;
@@ -25,6 +23,7 @@ nav img {
 
 nav a:link {
 	color: #14B6E0;
+	font-size: x-large;
 	text-align: left;
 	justify-content: space-around;
 	padding: 0.4rem;
@@ -43,11 +42,6 @@ nav a:active {
 	color: #14B6E0;
 }
 
-/*section {
-	margin-bottom: 10vw;
-	max-width: 1200px;
-}*/
-
 /*INDHOLD*/
 
 img {
@@ -59,12 +53,17 @@ img {
 .tak_gif {
 	max-width: 50%;
 	margin-left: 25%;
+	margin-top: 15vw;
 }
 
 video {
 	max-width: 98%;
 	margin-left: 1%;
 	margin-bottom: 3vw;
+}
+
+.spil_video {
+	margin-bottom: 0;
 }
 
 /*FONTS*/
@@ -82,16 +81,16 @@ h1 {
 	padding-top: 25vw;
 }
 
-h2,
-nav a {
+h2 {
 	font-size: x-large;
 	text-align: justify;
-}
-
-h2 {
 	margin-left: 2vw;
 	margin-bottom: 4vw;
-	margin-top: 6vw;
+	margin-top: 8vw;
+}
+
+#port_top h2 {
+	margin-top: 2vw;
 }
 
 h3 {
@@ -115,7 +114,7 @@ figcaption {
 	font-size: small;
 	font-style: italic;
 	margin-bottom: 3vw;
-	margin-left: 2vw;
+	margin-left: 1vw;
 }
 
 /*LINKS*/
@@ -201,6 +200,10 @@ footer {
 	figcaption {
 		margin-left: 4vw;
 		margin-right: 4vw;
+	}
+
+	#v2 figcaption {
+		margin-left: 2vw;
 	}
 
 	.redesign_1 p {
@@ -490,8 +493,11 @@ footer {
 	}
 
 	nav {
-		font-size: 2rem;
 		padding-top: 17px;
+	}
+
+	nav a {
+		font-size: xx-large;
 	}
 
 	h1 {
@@ -501,6 +507,7 @@ footer {
 	#port_top h2 {
 		margin-left: 13vw;
 		margin-right: 13vw;
+		margin-top: 1vw;
 		font-size: xx-large;
 	}
 

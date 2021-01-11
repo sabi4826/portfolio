@@ -50,6 +50,29 @@ nav a:active {
 	color: #14B6E0;
 }
 
+img {
+	animation-name: pulse_kf;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+
+/*ANIMATION AF FOTO*/
+
+@keyframes pulse_kf {
+	0% {
+		transform: scale(100%);
+	}
+
+	50% {
+		transform: scale(100.5%);
+	}
+
+	100% {
+		transform: scale(101%);
+	}
+}
+
 section {
 	margin-bottom: 10vw;
 	max-width: 1200px;
@@ -151,9 +174,29 @@ footer {
 
 	/*RUNDT FOTO*/
 	img {
-		border-radius: 50%;
 		max-width: 70%;
+		border-radius: 50%;
 		box-shadow: 8px -8px #14B6E0;
+		animation-name: pulse_kf;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate-reverse;
+	}
+
+	/*ANIMATION AF FOTO*/
+
+	@keyframes pulse_kf {
+		0% {
+			transform: scale(100%);
+		}
+
+		50% {
+			transform: scale(101%);
+		}
+
+		100% {
+			transform: scale(102%);
+		}
 	}
 
 	p,
