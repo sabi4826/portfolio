@@ -224,6 +224,10 @@ footer {
 		margin: 0vw;
 	}
 
+	figcaption {
+		margin-left: 13vw;
+	}
+
 	/*TOPSEKTION*/
 
 	#cv_col_1 .section_wrapper_1 {
@@ -314,6 +318,10 @@ footer {
 		height: 10vh;
 		font-size: 1.8rem;
 		padding-top: 10px;
+	}
+
+	figcaption {
+		margin-left: 18vw;
 	}
 
 	/*SEKTIONER*/
