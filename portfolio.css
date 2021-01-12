@@ -1,5 +1,6 @@
 * {
 	margin: 0;
+	font-size: 62.5%;
 }
 
 /*MOBILMENU*/
@@ -11,6 +12,8 @@ header {
 nav {
 	padding-top: 1rem;
 	padding-left: 1rem;
+	color: #14B6E0;
+	font-size: 4rem;
 	display: flex;
 	flex-direction: column;
 	height: 12vh;
@@ -22,8 +25,6 @@ nav img {
 }
 
 nav a:link {
-	color: #14B6E0;
-	font-size: x-large;
 	text-align: left;
 	justify-content: space-around;
 	padding: 0.4rem;
@@ -46,7 +47,7 @@ nav a:active {
 
 img {
 	max-width: 98%;
-	margin-top: 3vw;
+	margin-top: 4vw;
 	margin-left: 1%;
 }
 
@@ -60,6 +61,7 @@ video {
 	max-width: 98%;
 	margin-left: 1%;
 	margin-bottom: 3vw;
+	margin-top: 2vw;
 }
 
 .spil_video {
@@ -76,34 +78,36 @@ nav a {
 }
 
 h1 {
-	font-size: xx-large;
+	font-size: 3.4rem;
 	text-align: center;
 	padding-top: 25vw;
 }
 
-h2 {
-	font-size: x-large;
+#port_top h2 {
+	margin-top: 2vw;
 	text-align: justify;
+}
+
+h2 {
+	font-size: 2.6rem;
+	text-align: left;
 	margin-left: 2vw;
 	margin-bottom: 4vw;
 	margin-top: 8vw;
 }
 
-#port_top h2 {
-	margin-top: 2vw;
-}
-
 h3 {
-	font-size: large;
+	font-size: 1.8rem;
 	text-align: justify;
 	margin-left: 2vw;
+	margin-top: 4vw;
 }
 
 p,
 section a,
-ol {
+ol li {
 	font-family: 'Cutive Mono', monospace;
-	font-size: medium;
+	font-size: 1.6rem;
 	text-align: justify;
 	margin-left: 2vw;
 	margin-right: 2vw;
@@ -167,7 +171,7 @@ footer {
 	nav {
 		flex-direction: row;
 		height: 10vh;
-		font-size: 1.8rem;
+		font-size: 4.6rem;
 		padding-top: 10px;
 	}
 
@@ -177,30 +181,16 @@ footer {
 		padding: 0.4rem;
 	}
 
-	h1 {
-		padding-top: 3vw;
-	}
-
-	h2 {
-		margin-top: 8vw;
-	}
-
-	#port_top h2 {
-		margin-right: 7vw;
-		margin-left: 7vw;
-	}
-
 	section a {
 		text-align: left;
 	}
 
-	h2,
-	h3,
 	p,
 	section a,
 	figcaption {
 		margin-left: 4vw;
 		margin-right: 4vw;
+		font-size: 1.7rem;
 	}
 
 	#v2 figcaption {
@@ -211,8 +201,28 @@ footer {
 		margin-bottom: 2vw;
 	}
 
+	h1 {
+		padding-top: 3vw;
+		font-size: 3.6rem;
+	}
+
+	h2 {
+		margin-top: 8vw;
+		font-size: 2.8rem;
+		margin-left: 4vw;
+		margin-right: 4vw;
+	}
+
+	#port_top h2 {
+		margin-right: 7vw;
+		margin-left: 7vw;
+	}
+
 	h3 {
+		font-size: 2rem;
 		margin-top: 3vw;
+		margin-left: 4vw;
+		margin-right: 4vw;
 	}
 
 	video {
@@ -331,15 +341,36 @@ footer {
 	}
 
 	nav {
-		font-size: 1.9rem;
-		padding-top: 13px;
+		font-size: 4.7rem;
+		padding-top: 16px;
 	}
 
-	h2,
-	h3,
 	p,
 	section a,
 	figcaption {
+		margin-left: 2vw;
+		margin-right: 2vw;
+		font-size: 1.8rem;
+	}
+
+	h1 {
+		font-size: 4rem;
+	}
+
+	h2 {
+		margin-top: 8vw;
+		font-size: 3rem;
+		margin-left: 2vw;
+		margin-right: 2vw;
+	}
+
+	#port_top h2 {
+		margin-right: 7vw;
+		margin-left: 7vw;
+	}
+
+	h3 {
+		font-size: 2.2;
 		margin-left: 2vw;
 		margin-right: 2vw;
 	}
@@ -501,10 +532,7 @@ footer {
 
 	nav {
 		padding-top: 17px;
-	}
-
-	nav a {
-		font-size: ;
+		font-size: 4.9rem;
 	}
 
 	#port_top h2 {
@@ -515,14 +543,16 @@ footer {
 	}
 
 	h1 {
-		font-size:
+		font-size: 4rem;
 	}
 
 	h2 {
+		font-size: 3.2rem;
 		margin-bottom: 2vw;
 	}
 
 	h3 {
+		font-size: 2.4rem;
 		margin-top: 1vw;
 	}
 
