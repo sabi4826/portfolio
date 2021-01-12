@@ -115,6 +115,12 @@ h1 {
 h2 {
 	font-size: 2.6rem;
 	margin: 3vw;
+	margin-top: 5vw;
+}
+
+h3 {
+	font-size: 1.8rem;
+	margin: 3vw;
 }
 
 p,
@@ -126,10 +132,15 @@ footer {
 	font-size: 1.6rem;
 }
 
-p,
-section a {
+p {
 	text-align: justify;
 	margin: 3vw;
+}
+
+section a {
+	text-align: left;
+	margin-left: 3vw;
+	margin-bottom: 0;
 }
 
 figcaption {
@@ -228,6 +239,10 @@ footer {
 		font-size: 2.6rem;
 	}
 
+	.cv_h2 {
+		margin-top: 5vw;
+	}
+
 	p,
 	section a,
 	figcaption,
@@ -298,6 +313,11 @@ footer {
 
 	.liste {
 		margin-right: 1vw;
+		margin-top: 2vw;
+		margin-bottom: 5vw;
+	}
+
+	ul {
 		margin-bottom: 5vw;
 	}
 
@@ -555,7 +575,7 @@ footer {
 	.cv_tekst_3 {
 		grid-column: 2/2;
 		grid-row: 1/1;
-		padding-top: 0;
+		padding-top: 3vw;
 		margin-right: 7vw;
 	}
 
