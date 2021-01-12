@@ -151,11 +151,11 @@ section a:hover {
 }
 
 footer {
-	height: 14vw;
+	height: 16vw;
 	background-color: #14B6E0;
 	margin: 0;
-	margin-top: 10vw;
-	padding-top: 1vw;
+	margin-top: 20vw;
+	padding-top: 2vw;
 	max-width: 100%;
 }
 
@@ -173,6 +173,7 @@ footer {
 	nav img {
 		width: auto;
 		margin-top: 0;
+		margin-right: 3vw;
 		display: inline-flex;
 		box-shadow: none;
 	}
@@ -182,7 +183,6 @@ footer {
 		height: 12vh;
 		font-size: 1.6rem;
 		padding-top: 6px;
-		/*position: fixed;*/
 	}
 
 	nav a:link {
@@ -303,7 +303,9 @@ footer {
 	}
 
 	footer {
-		height: 10vw;
+		height: 12vw;
+		margin-top: 15vw;
+		padding-top: 3vw;
 	}
 }
 
@@ -365,7 +367,9 @@ footer {
 	}
 
 	footer {
-		height: 8vw;
+		height: 10vw;
+		margin-top: 15vw;
+		padding-top: 4vw;
 	}
 }
 
@@ -420,6 +424,12 @@ footer {
 		padding-top: 3.5vw;
 		margin-left: 0;
 		margin-right: 5vw;
+	}
+
+	footer {
+		height: 8vw;
+		margin-top: 13vw;
+		padding-top: 3vw;
 	}
 }
 
@@ -488,6 +498,8 @@ footer {
 	}
 
 	footer {
-		height: 7vw;
+		height: 6vw;
+		margin-top: 12vw;
+		padding-top: 2.5vw;
 	}
 }
