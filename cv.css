@@ -1,5 +1,6 @@
 * {
 	margin: 0;
+	font-size: 62.5%;
 }
 
 img {
@@ -16,10 +17,9 @@ header {
 }
 
 nav {
-	padding-top: 1.8rem;
-	padding-left: 1.4rem;
-	font-weight: 400;
-	font-size: 1.6rem;
+	padding-top: 2.2rem;
+	padding-left: 2.8rem;
+	font-size: 4rem;
 	display: flex;
 	flex-direction: column;
 	height: 12vh;
@@ -50,6 +50,8 @@ nav a:active {
 	color: #14B6E0;
 }
 
+/*ANIMATION AF FOTO*/
+
 img {
 	animation-name: pulse_kf;
 	animation-duration: 1s;
@@ -57,19 +59,17 @@ img {
 	animation-direction: alternate-reverse;
 }
 
-/*ANIMATION AF FOTO*/
-
 @keyframes pulse_kf {
 	0% {
-		transform: scale(100%);
+		transform: scale(1);
 	}
 
 	50% {
-		transform: scale(100.5%);
+		transform: scale(0.99);
 	}
 
 	100% {
-		transform: scale(101%);
+		transform: scale(0.98);
 	}
 }
 
@@ -108,22 +108,22 @@ nav a {
 }
 
 h1 {
-	font-size: xx-large;
+	font-size: 3.4rem;
 	text-align: center;
 }
 
 h2 {
-	font-size: x-large;
+	font-size: 2.6rem;
 	margin: 3vw;
 }
 
 p,
 section a,
 figcaption,
-ul,
+ul li,
 footer {
 	font-family: 'Cutive Mono', monospace;
-	font-size: medium;
+	font-size: 1.6rem;
 }
 
 p,
@@ -181,8 +181,8 @@ footer {
 	nav {
 		flex-direction: row;
 		height: 12vh;
-		font-size: 1.6rem;
-		padding-top: 6px;
+		font-size: 4.4rem;
+		padding-top: 10px;
 	}
 
 	nav a:link {
@@ -197,7 +197,7 @@ footer {
 		border-radius: 50%;
 		box-shadow: 8px -8px #14B6E0;
 		animation-name: pulse_kf;
-		animation-duration: 1s;
+		animation-duration: 2s;
 		animation-iteration-count: infinite;
 		animation-direction: alternate-reverse;
 	}
@@ -206,16 +206,34 @@ footer {
 
 	@keyframes pulse_kf {
 		0% {
-			transform: scale(100%);
+			transform: scale(1);
 		}
 
 		50% {
-			transform: scale(101%);
+			transform: scale(0.99);
 		}
 
 		100% {
-			transform: scale(102%);
+			transform: scale(0.98);
 		}
+	}
+
+	/*FONTE*/
+
+	h1 {
+		font-size: 3.4rem;
+	}
+
+	h2 {
+		font-size: 2.6rem;
+	}
+
+	p,
+	section a,
+	figcaption,
+	ul li,
+	footer {
+		font-size: 1.6rem;
 	}
 
 	p,
@@ -318,8 +336,24 @@ footer {
 
 	nav {
 		height: 10vh;
-		font-size: 1.8rem;
-		padding-top: 10px;
+		font-size: 4.6rem;
+		padding-top: 13px;
+	}
+
+	h1 {
+		font-size: 3.6rem;
+	}
+
+	h2 {
+		font-size: 2.8rem;
+	}
+
+	p,
+	section a,
+	figcaption,
+	ul li,
+	footer {
+		font-size: 1.7rem;
 	}
 
 	figcaption {
@@ -386,8 +420,24 @@ footer {
 	}
 
 	nav {
-		font-size: 1.9rem;
+		font-size: 4.7rem;
 		padding-top: 13px;
+	}
+
+	h1 {
+		font-size: 4rem;
+	}
+
+	h2 {
+		font-size: 3rem;
+	}
+
+	p,
+	section a,
+	figcaption,
+	ul li,
+	footer {
+		font-size: 1.8rem;
 	}
 
 	/*SEKTIONER*/
@@ -440,12 +490,24 @@ footer {
 	}
 
 	nav {
-		font-size: 2rem;
-		padding-top: 17px;
+		font-size: 4.9rem;
+		padding-top: 23px;
 	}
 
 	h1 {
-		font-size: xxx-large;
+		font-size: 4.3rem;
+	}
+
+	h2 {
+		font-size: 3.2rem;
+	}
+
+	p,
+	section a,
+	figcaption,
+	ul li,
+	footer {
+		font-size: 1.9rem;
 	}
 
 	/*SEKTIONER*/

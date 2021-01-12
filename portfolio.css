@@ -231,7 +231,6 @@ footer {
 
 	#ux_container_2 img {
 		max-width: 70%;
-		max-height: auto;
 		margin-left: 15%;
 		margin-right: 15%;
 	}
@@ -449,7 +448,6 @@ footer {
 
 	#ux_container_2 img {
 		max-width: 90%;
-		max-height: auto;
 		margin-top: 3vw;
 		margin-left: 5%;
 		margin-right: 5%;
@@ -506,11 +504,7 @@ footer {
 	}
 
 	nav a {
-		font-size: xx-large;
-	}
-
-	h1 {
-		font-size: xxx-large;
+		font-size: ;
 	}
 
 	#port_top h2 {
@@ -518,6 +512,10 @@ footer {
 		margin-right: 13vw;
 		margin-top: 1vw;
 		font-size: xx-large;
+	}
+
+	h1 {
+		font-size:
 	}
 
 	h2 {

@@ -1,5 +1,6 @@
 * {
 	margin: 0;
+	font-size: 62.5%;
 }
 
 img {
@@ -20,7 +21,7 @@ header {
 nav {
 	padding-top: 2rem;
 	padding-left: 1rem;
-	font-size: 1.6rem;
+	font-size: 4rem;
 	display: flex;
 	flex-direction: column;
 	height: 12vh;
@@ -64,7 +65,7 @@ nav a {
 p,
 footer {
 	font-family: 'Cutive Mono', monospace;
-	font-size: medium;
+	font-size: 1.6rem;
 }
 
 .knap {
@@ -82,7 +83,7 @@ footer {
 .knap a {
 	color: #284DE0;
 	font-family: 'Special Elite', cursive;
-	font-size: 1.5rem;
+	font-size: 2.2rem;
 }
 
 .knap a:hover {
@@ -121,7 +122,7 @@ footer {
 	nav {
 		flex-direction: row;
 		height: 12vh;
-		font-size: 1.6rem;
+		font-size: 4.2rem;
 		padding-top: 6px;
 	}
 
@@ -140,7 +141,7 @@ footer {
 	}
 
 	.knap a {
-		font-size: 1.5rem;
+		font-size: 2.4rem;
 	}
 
 	footer {
@@ -159,7 +160,7 @@ footer {
 
 	nav {
 		height: 10vh;
-		font-size: 1.8rem;
+		font-size: 4.5rem;
 		padding-top: 10px;
 	}
 
@@ -174,11 +175,11 @@ footer {
 		height: 9vw;
 		top: -31vw;
 		left: 12vw;
-		padding-top: 8px;
+		padding-top: 14px;
 	}
 
 	.knap a {
-		font-size: 1.7rem;
+		font-size: 2.7rem;
 	}
 
 	footer {
@@ -202,7 +203,7 @@ footer {
 	}
 
 	nav {
-		font-size: 1.9rem;
+		font-size: 4.7rem;
 		padding-top: 13px;
 	}
 
@@ -221,7 +222,7 @@ footer {
 	}
 
 	.knap a {
-		font-size: 1.8rem;
+		font-size: 3rem;
 	}
 
 	footer {
@@ -238,7 +239,7 @@ footer {
 	}
 
 	nav {
-		font-size: 2rem;
+		font-size: 4.9rem;
 		padding-top: 17px;
 	}
 
@@ -255,7 +256,7 @@ footer {
 	}
 
 	.knap a {
-		font-size: 1.8rem;
+		font-size: 2.8rem;
 	}
 
 	footer {
